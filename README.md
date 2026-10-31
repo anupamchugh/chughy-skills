@@ -7,6 +7,7 @@ Agent skills for shipping Apple apps safely: small, tested checks an AI coding a
 | Skill | What it does |
 |---|---|
 | [`hidden-feature-gate`](skills/hidden-feature-gate/SKILL.md) | Blocks an App Store upload while release source or the built binary still contains hidden, dormant or undocumented switches (App Review guideline 2.5.19, whose penalty includes developer-account termination). It scans Swift source outside `#if DEBUG` and every Mach-O file in the `.app`/`.xcarchive`. |
+| [`swiftui-preview-workflow`](skills/swiftui-preview-workflow/SKILL.md) | Draft workflow for safe sample data, Xcode preview rendering, and visual verification. |
 
 ## Install
 
